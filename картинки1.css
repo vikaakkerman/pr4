@@ -1,0 +1,172 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1c1e22;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+support-warning {
+    background: #ccb11c;
+    color: #000;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    opacity: 0.95;
+    padding: 3rem;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+support-warning a {
+    color: inherit;
+}
+
+
+l-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+l-grid > l-grid__item {
+    flex: 1 0 auto;
+}
+
+l-grid--4x4 > l-grid__item {
+    width: 25%;
+}
+
+
+@supports(display: grid) {
+    support-warning {
+        display: none;
+    }
+    
+    l-grid--4x4 > l-grid__item {
+        width: auto;
+    }
+    
+    l-grid {
+        display: grid;
+    }
+}
+
+
+l-grid--4x4 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, minmax(13rem, 1fr));
+    grid-gap: 0;
+}
+
+l-span-column-2 {
+    grid-column-start: span 2;
+}
+
+l-span-row-2 {
+    grid-row-start: span 2;
+}
+
+l-full-height {
+    min-height: 100vh;
+}
+
+
+align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+content {
+    padding: 3.5rem;
+    max-width: 400px;
+}
+
+
+heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+description a {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+description a:hover {
+    color: #ff8e8e;
+    text-decoration: underline;
+}
+
+
+theme-blue {
+    background: #3498db;
+    color: #fff;
+}
+
+theme-navy {
+    background: #2c3e50;
+    color: #fff;
+}
+
+theme-teal {
+    background: #1abc9c;
+    color: #fff;
+}
+
+
+img-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    position: relative;
+}
+
+img-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+}
+
+img-background content {
+    position: relative;
+    z-index: 1;
+}
+
+img-background--sea {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--sea.jpg');
+}
+
+img-background--wave {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--wave.jpg');
+}
+
+img-background--horizon {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--horizon.jpg');
+}
