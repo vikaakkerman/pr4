@@ -1,4 +1,3 @@
-<style>
     * {
         box-sizing: border-box;
         margin: 0;
@@ -19,12 +18,12 @@
         font-family: 'Raleway', sans-serif;
         font-weight: 700;
         opacity: 0.95;
-        padding: 3rem;
+        padding: 3 rem;
         position: fixed;
         text-align: center;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100 %;
         z-index: 5;
     }
 
@@ -42,7 +41,7 @@
     }
 
     .l-grid--4x4 > .l-grid__item {
-        width: 25%;
+        width: 25 %;
     }
 
     @supports(display: grid) {
@@ -60,8 +59,8 @@
     }
 
     .l-grid--4x4 {
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, minmax(13rem, 1fr));
+        grid-template-columns: repeat (4, 1 fr);
+        grid-template-rows: repeat (3, minmax (13 rem, 1 fr));
         grid-gap: 0;
     }
 
@@ -93,14 +92,14 @@
         font-size: 1.5rem;
         font-weight: 700;
         line-height: 1.2;
-        margin-bottom: 1rem;
+        margin-bottom: 1 rem;
     }
 
     .description {
         font-family: 'Open Sans', sans-serif;
-        font-size: 1rem;
+        font-size: 1 rem;
         line-height: 1.5;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.5 rem;
     }
 
     .description a {
@@ -144,7 +143,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba (0, 0, 0, 0.3);
         z-index: 0;
     }
 
@@ -154,14 +153,13 @@
     }
 
     .img-background--sea {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--sea.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--sea.jpg');
     }
 
     .img-background--wave {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--wave.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--wave.jpg');
     }
 
     .img-background--horizon {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--horizon.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--horizon.jpg');
     }
-</style>
