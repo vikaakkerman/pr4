@@ -153,13 +153,13 @@
     }
 
     .img-background--sea {
-        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--sea.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/sea.jpg');
     }
 
     .img-background--wave {
-        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--wave.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/wave.jpg');
     }
 
     .img-background--horizon {
-        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/background--horizon.jpg');
+        background-image: linear-gradient (rgba (0, 0, 0, 0.2), rgba (0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/vikaakkerman/pr4/refs/heads/main/horizon.jpg');
     }
